@@ -1,0 +1,231 @@
+/* Fuentes adicionales */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lora:wght@400;700&family=Roboto:wght@400;700&family=Raleway:wght@400;600&family=Montserrat:wght@400;700&display=swap');
+
+/* Establece las fuentes predeterminadas para todo el documento */
+* {
+  font-family: 'Century Gothic', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #fcecfb, #f5fffc);
+  padding: 2%;
+}
+
+body {
+  color: #1d0114;
+  box-sizing: border-box;
+}
+
+/* Estilo del menú */
+.navbar {
+  font-family: 'Playfair Display', serif;
+  background-color: hsl(281, 63%, 85%);
+  color: #19011f;
+  border: 2px solid #914770;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.navbar .nav-link {
+  color: #e8d7e9;
+  font-size: 1rem;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.navbar .nav-link:hover, .navbar .nav-link.active {
+  background-color: #e4b4d9;
+  color: #9e40a7;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+  background-color: #ffffff;
+}
+
+.search-bar input {
+  background-color: #f6e6f6;
+  color: #bc968b;
+  border: 1px solid #bc968b;
+}
+
+.search-bar button {
+  background-color: #a56387;
+  color: #dbbadb;
+  border: 1px solid #a66689;
+}
+
+/* Estilos generales de texto */
+h1 {
+  color: #fa678f;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Abadi MT Condensed Extra Bold', sans-serif;
+}
+
+h2, h3, h4, h5 {
+  color: #08a8a0;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #95ad09;
+  font-family: 'Raleway', sans-serif;
+}
+
+h6 {
+  color: #528b2c;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p {
+  color: #080208;
+  text-align: justify;
+  margin-bottom: 0;
+  padding: 8px;
+  border-radius: 1px;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Encabezados */
+header {
+  text-align: center;
+  margin-bottom: 12px;
+  font-family: 'Lora', serif;
+}
+
+/* Sección de contacto */
+.contact-section {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-section h5 {
+  font-size: 1.2rem;
+  color: #1b1717;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.contact-icons a {
+  font-size: 3rem;
+  color: #02360f;
+  text-decoration: none;
+}
+
+.contact-icons a:nth-child(2) {
+  color: #ebb916;
+}
+
+.contact-icons a:hover {
+  color: #28a73d;
+}
+
+/* Imagen de pie de página */
+.footer-image {
+  display: block;
+  margin: 40px auto;
+  max-width: 300px;
+}
+
+/* Estilo de las tarjetas */
+.card {
+  width: 20rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid #a06f44;
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #faf8f1;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(22, 0, 34, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #075f5b;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.card-button {
+  background-color: #398108;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #0b4d44;
+}
+
+.card-text {
+  font-family: 'Raleway', sans-serif;
+  color: #220b03;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.card-link {
+  color: #11411c;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* Imágenes en strip */
+.image-strip {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-strip img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 5px;
+}

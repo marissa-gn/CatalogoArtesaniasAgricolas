@@ -1,0 +1,22 @@
+CREATE DATABASE IF NOT EXISTS Catalogo;
+
+USE Catalogo;
+
+CREATE TABLE IF NOT EXISTS Adulto (
+  Id INT AUTO_INCREMENT PRIMARY KEY,
+  Nombre VARCHAR(50),
+  ApellidoMaterno VARCHAR(50),
+  ApellidoPaterno VARCHAR(50),
+  NumeroDeTelefono VARCHAR(15),
+  FechaDeNacimiento DATE
+);
+
+CREATE TABLE IF NOT EXISTS Producto (
+  Id INT AUTO_INCREMENT PRIMARY KEY,
+  ArtesaniaOProducto VARCHAR(100)
+);
+
+CREATE TABLE IF NOT EXISTS Ubicacion (
+  Id INT AUTO_INCREMENT PRIMARY KEY,
+  LugarDeUbicacion VARCHAR(100)
+);

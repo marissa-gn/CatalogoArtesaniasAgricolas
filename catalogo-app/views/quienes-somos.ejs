@@ -1,0 +1,72 @@
+<!-- views/quienes-somos.ejs -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Quiénes somos?</title>
+  <!-- Enlaces a hojas de estilo -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/"><i class="fas fa-home"></i> Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/catalogo"><i class="fas fa-shopping-cart"></i> Catálogo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/dudas"><i class="fas fa-question-circle"></i> Dudas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/quienes-somos"><i class="fas fa-users"></i> ¿Quiénes somos?</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección de ¿Quiénes somos? -->
+  <section id="quienes-somos" class="container mt-4">
+    <header>
+      <h1><b>¡Hola! Me presento...</b></h1>
+    </header>
+    <div class="row mt-4">
+      <!-- Texto y descripción -->
+      <div class="col-md-12 quienes-somos-content">
+        <h5>Soy Marissa Mayte, mucho gusto. Estudiante de Informática Administrativa en el CU UAEMex Atlacomulco. Aunque vivo en un pueblito de Acambay, Edomex.</h5>
+        <p class="text-justify">
+          Te cuento que la Licenciatura en Informática Administrativa en la UAEMex Atlacomulco forma profesionales en la gestión de tecnología y la administración de sistemas de información. Como estudiantes, adquirimos conocimientos en programación, análisis de datos, administración de bases de datos y sistemas ERP, que nos preparan para implementar soluciones tecnológicas que optimicen los procesos de negocios y fomenten la innovación.
+        </p>
+        <p class="text-justify">
+          Este proyecto busca aplicar esos conocimientos para cerrar la brecha digital que afecta a los adultos mayores, integrándolos en el mercado digital a través de herramientas tecnológicas. La meta es contribuir al desarrollo económico de esta población, brindándoles medios accesibles para el comercio en línea.
+        </p>
+        <h3><b>Gracias por apoyar nuestro proyecto y contribuir al bienestar y economía de nuestra comunidad.</b></h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de imágenes -->
+  <div class="image-strip">
+    <img src="https://cuatlacomulco.uaemex.mx/images/2023/07/13/edificio-b-cuatlac.jpeg" class="img-thumbnail" alt="Imagen 1">
+    <img src="https://cuatlacomulco.uaemex.mx/images/2023/08/18/microsoftteams-cu5.jpg" class="img-thumbnail" alt="Imagen 2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIcrIr-RWNX2rkh4Pk3wOEpxWrr2EV1qZSTQ&s" class="img-thumbnail" alt="Imagen 3">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3WnfMB5Fow8kMynwWyc27q9pDyJpxD-dedA&s" class="img-thumbnail" alt="Imagen 4">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz5PcK78KtUER9NRmFhxIIV6bTmyDQgROfBg&s" class="img-thumbnail" alt="Imagen 5">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDmA3ORTo8zqhwJaBLylUo3ClJ-t4lNTm4fw&s" class="img-thumbnail" alt="Imagen 6">
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
